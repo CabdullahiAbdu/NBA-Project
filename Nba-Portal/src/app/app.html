@@ -2,8 +2,7 @@
   <a [routerLink]="['/home']"> <img src="https://cdn.worldvectorlogo.com/logos/nba-6.svg" alt="NBA Logo" class="main-logo"></a>
   <div class="header-controls">
     <input placeholder="Filter by" type="text" #filter (keyup)="ps.GetPlayerBy(filter.value)">
-    <button mat-button (click)="ps.GetPlayerBy(filter.value)">Filter</button>
-    <a [routerLink]="['/addPlayer']"><button mat-button>Spieler Erstellen</button></a>
+    <a [routerLink]="['/addPlayer']"><button mat-button >Spieler Erstellen</button></a>
   </div>
 </div>
 
