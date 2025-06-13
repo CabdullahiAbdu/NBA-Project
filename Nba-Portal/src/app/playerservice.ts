@@ -41,4 +41,7 @@ export class Playerservice {
     });
     return  playersorted;
   }
+  newPlayer(p: Player) {
+    this.players.push(p);
+  }
 }

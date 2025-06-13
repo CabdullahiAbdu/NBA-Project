@@ -6,6 +6,6 @@ export interface Player {
     position:String;
     team:String;
     number:Number;
-    teamLogo: String;
+    teamLogo?: String;
     height: String;
 }
