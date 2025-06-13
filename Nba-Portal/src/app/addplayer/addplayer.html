@@ -46,11 +46,11 @@
         </form>
 
         <div class="button-container">
-            <button mat-raised-button color="primary" class="create-btn" (click)="safenewPlayer()">
+            <a [routerLink]="['']"><button mat-raised-button color="primary" class="create-btn" (click)="safenewPlayer()">
                 <mat-icon>add</mat-icon>
                 Spieler erstellen
             </button>
-            <a [routerLink]="['']">
+            
                 <button mat-stroked-button class="cancel-btn">
                     <mat-icon>close</mat-icon>
                     Abbrechen

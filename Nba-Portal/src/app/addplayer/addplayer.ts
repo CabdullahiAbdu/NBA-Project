@@ -11,7 +11,7 @@ import { MatIcon } from '@angular/material/icon';
 
 @Component({
   selector: 'app-addplayer',
-  imports: [ReactiveFormsModule, MatInputModule, MatButtonModule,RouterLink,MatSelect,MatSelectModule, MatIcon],
+  imports: [ReactiveFormsModule, MatInputModule, MatButtonModule,RouterLink,MatSelectModule, MatIcon],
   templateUrl: './addplayer.html',
   styleUrl: './addplayer.css'
 })
